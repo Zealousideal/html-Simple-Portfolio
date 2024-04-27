@@ -2,103 +2,249 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Profile</title>
-        <link rel="stylesheet" href="styles.css" />
+        <title>vCard - Personal Portfolio</title>
+        <link
+            rel="shortcut icon"
+            href="./assets/images/logo.ico"
+            type="image/x-icon"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <h1>Sinoy De</h1>
-        <img
-            id="profile_pic"
-            src="./Assets/Images/IMG_0329.JPG"
-            width="400"
-            alt="Profile Picture"
-        />
-        <br />
-
-        <h3>About Me</h3>
-        <p>
-            I'm a passionate learner with a keen interest in technology and its
-            applications. I thrive on challenges and am driven to achieve
-            excellence in everything I do. With strong organizational skills and
-            effective communication abilities, I'm adept at collaborating with
-            others to accomplish objectives.
-        </p>
-        <p>
-            Currently, I'm pursuing my B.Tech in Computer Science and
-            Engineering with a specialization in Cyber Security at Rashtriya
-            Raksha University, Gandhinagar, Gujarat.
-        </p>
-        <br />
-
-        <h3>Skills</h3>
-        <ul>
-            <li>Content Creation</li>
-            <li>Vocalist</li>
-            <li>Social Media Management</li>
-            <li>Public Relations</li>
-        </ul>
-        <br />
-
-        <h3>Programming Efficiency</h3>
-        <ol>
-            <li>
-                C
-                <ul>
-                    <li>4⭐ on Hackerrank</li>
-                    <h4>Projects</h4>
-                    <ul>
-                        <li>
-                            Developed an interpreter for an esoteric programming
-                            language (Brainfuck)
+        <main>
+            <aside class="sidebar" data-sidebar>
+                <div class="sidebar-info">
+                    <figure class="avatar-box">
+                        <img
+                            src="./assets/images/my-avatar.png"
+                            alt="Sinoy De"
+                            width="80"
+                        />
+                    </figure>
+                    <div class="info-content">
+                        <h1 class="name" title="Sinoy De">Sinoy De</h1>
+                        <p class="title">Cyber Security</p>
+                        <p class="title">Cryptography</p>
+                        <p class="title">Content Creation</p>
+                    </div>
+                    <button class="info_more-btn" data-sidebar-btn>
+                        <span>Show Contacts</span>
+                        <ion-icon name="chevron-down"></ion-icon>
+                    </button>
+                </div>
+                <div class="sidebar-info_more">
+                    <div class="separator"></div>
+                    <ul class="contacts-list">
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Email</p>
+                                <a
+                                    href="mailto:desinoy2004@gmail.com"
+                                    class="contact-link"
+                                    >desinoy2004@gmail.com</a
+                                >
+                            </div>
                         </li>
-                        <!-- Provide the GitHub page link for the Brainfuck interpreter after publishing it -->
-                        <li>
-                            Created a basic and minimal "Guess the Number" game
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon
+                                    name="phone-portrait-outline"
+                                ></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Phone</p>
+                                <a href="tel:+917359647980" class="contact-link"
+                                    >+91 73596 47980</a
+                                >
+                            </div>
+                        </li>
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="calendar-outline"></ion-icon>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-title">Birthday</p>
+                                <time datetime="1982-06-23">September 28, 2004</time>
+                            </div>
+                        </li>
+
+                        <li class="contact-item">
+                            <div class="icon-box">
+                                <ion-icon name="location-outline"></ion-icon>
+                            </div>
+
+                            <div class="contact-info">
+                                <p class="contact-title">Location</p>
+
+                                <address>Gandhinagar, Gujarat, India</address>
+                            </div>
                         </li>
                     </ul>
-                </ul>
-            </li>
 
-            <li>C++</li>
-            <ul>
-                <li>4⭐ on Hackerrank</li>
-            </ul>
-        </ol>
-        <br />
+                    <div class="separator"></div>
 
-        <h3>Interests</h3>
-        <ul>
-            <li>Cryptography</li>
-            <li>AI ML</li>
-            <li>Singing</li>
-            <li>Web Designing</li>
-            <li>Web App Security</li>
-            <li>Cyber Security</li>
-        </ul>
+                    <ul class="social-list">
+                        <li class="social-item">
+                            <a
+                                href="https://github.com/Zealousideal"
+                                class="social-link"
+                            >
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
 
-        <h3>Certifications</h3>
-        <ul>
-            <li>Google IT Support Professional Certificate</li>
-            <a
-                href="https://www.coursera.org/account/accomplishments/verify/SMRTQQKLWSQY"
-                >Google IT Fundamentals</a
-            >
-            <li>NEC Top 50</li>
-            <!-- Keep adding more -->
-            <!-- Add the pictures of the certificates as well as the links to them -->
-        </ul>
+                        <li class="social-item">
+                            <a
+                                href="https://www.linkedin.com/in/sinoy-de-585a44250"
+                                class="social-link"
+                            >
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="main-content">
+                <article class="about active" data-page="about">
+                    <header>
+                        <h2 class="h2 article-title">About me</h2>
+                    </header>
 
-        <p>
-            Email:
-            <a href="mailto:desinoy2018@gmail.com">desinoy2018@gmail.com</a>
-        </p>
-        <br />
+                    <section class="about-text">
+                        <p>
+                            I have a passion for unraveling complex problems and
+                            crafting straightforward solutions. I'm a learner.
+                            I'm a writer. I'm a coder.
+                        </p>
 
-        <a href="Education.html">View My Education</a>
-        <br />
-        <a href="Experience.html">View My Experience</a>
-        <br />
-        <a href="Projects.html">View My Projects</a>
+                        <p>
+                            I'm a tech enthusiast proficient in Python, C, and
+                            C++, driven by a love for learning and
+                            problem-solving. As an avid reader, I continuously
+                            seek new experiences and opportunities to broaden my
+                            horizons. I'm passionate about contributing to
+                            dynamic environments where collaboration and
+                            experimentation flourish. Let's connect and explore
+                            how we can create something exceptional together.
+                        </p>
+                    </section>
+                    <section class="service">
+                        <h3 class="h3 service-title">What I'm doing</h3>
+
+                        <ul class="service-list">
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-webapp.svg"
+                                        alt="design icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Web-app Security
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        learning how to fortify your online
+                                        presence with robust web app
+                                        security—shielding against cyber threats
+                                        with authentication, encryption, and
+                                        vigilant input validation.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-dev2.svg"
+                                        alt="Web development icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Web development
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        High-quality development of sites at the
+                                        professional level.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/iconapp3.png"
+                                        alt="mobile app icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Cryptography
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        Unlock the secrets of security with the
+                                        power of cryptography—explore the art of
+                                        safeguarding information through
+                                        encryption and decryption.
+                                    </p>
+                                </div>
+                            </li>
+
+                            <li class="service-item">
+                                <div class="service-icon-box">
+                                    <img
+                                        src="./assets/images/icon-content.svg"
+                                        alt="camera icon"
+                                        width="40"
+                                    />
+                                </div>
+
+                                <div class="service-content-box">
+                                    <h4 class="h4 service-item-title">
+                                        Content Creation
+                                    </h4>
+
+                                    <p class="service-item-text">
+                                        A passion that fuels my creativity and
+                                        transforms words into captivating
+                                        narratives that resonate with audiences
+                                        worldwide.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>            </div>
+        </main>
+        <script src="./assets/js/script.js"></script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        >
+    </script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
     </body>
 </html>
