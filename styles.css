@@ -1,0 +1,45 @@
+
+body {
+    background-color: #F1F6F9;
+      font-family: 'Open Sans';
+      color: #394867;
+}
+
+
+h1 {
+    color: rgb(177, 30, 30);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 600;
+    text-decoration: underline 2px;
+    text-underline-position: under;
+    text-decoration-color: gray;
+}
+
+h2 {
+    color: whitesmoke;
+    background-color: #AFD3E2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+h3 {
+      color: whitesmoke;
+      background-color: #394867;
+      font-family: 'JetBrains Mono', monospace;
+      
+}
+
+p {
+      font-size: 15px;
+      font-weight: 500;
+}
+
+#profile_pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+  }
