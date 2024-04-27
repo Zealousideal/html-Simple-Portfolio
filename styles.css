@@ -1,45 +1,42 @@
-
 body {
-    background-color: #F1F6F9;
-      font-family: 'Open Sans';
-      color: #394867;
+    background-color: #e6fffa; /* Light aqua */
+    font-family: "Open Sans", sans-serif;
+    color: #333; /* Dark gray for better contrast */
 }
 
-
 h1 {
-    color: rgb(177, 30, 30);
-    font-family: 'Raleway', sans-serif;
+    color: #f56565; /* Red */
+    font-family: "Raleway", sans-serif;
     text-align: center;
-    font-size: 100px;
+    font-size: 4rem;
     font-weight: 600;
-    text-decoration: underline 2px;
-    text-underline-position: under;
-    text-decoration-color: gray;
+    text-decoration: underline;
+    text-decoration-color: #81e6d9; /* Aqua */
 }
 
 h2 {
-    color: whitesmoke;
-    background-color: #AFD3E2;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    color: #333; /* Dark gray */
+    background-color: #4299e1; /* Blue */
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 h3 {
-      color: whitesmoke;
-      background-color: #394867;
-      font-family: 'JetBrains Mono', monospace;
-      
+    color: #f56565; /* Red */
+    background-color: #81e6d9; /* Aqua */
+    font-family: "JetBrains Mono", monospace;
+    padding: 5px 10px;
+    border-radius: 3px;
 }
 
 p {
-      font-size: 15px;
-      font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 #profile_pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     width: 50%;
-
-  }
+}
